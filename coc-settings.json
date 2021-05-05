@@ -1,0 +1,66 @@
+{
+    "coc.source.emoji.filetypes": [
+        "markdown"
+    ],
+    "coc.source.emoji.triggerCharacters": [
+        "TRIGGERCHAR"
+    ],
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "markdown",
+        "javascript",
+        "html",
+        "python",
+        "xml",
+        "java",
+        "json",
+        "yaml",
+        "graphql"
+    ],
+    "html.enable": true,
+    "html.filetypes": [
+        "html",
+        "handlebars",
+        "htmldjango",
+        "blade"
+    ],
+    "html.format.enable": true,
+    "html.suggest.html5": true,
+    "html.autoClosingTags": true,
+    "pyright.enable": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "python.autoComplete.extraPaths": [
+        "libqtile"
+    ],
+    "xml.format.enabled": true,
+    "xml.format.joinContentLines": true,
+    "xml.format.splitAttributes": true,
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "explorer.keyMappings.global": {
+        "i": false,
+        "*": "toggleSelection",
+        "<tab>": "actionMenu",
+        "yp": "copyFilepath",
+        "yn": "copyFilename",
+        "yy": "copyFile",
+        "dd": "cutFile",
+        "p": "pasteFile",
+        "df": "delete",
+        "dF": "deleteForever",
+        "a": "addFile",
+        "A": "addDirectory",
+        "r": "rename",
+        "zh": "toggleHidden",
+        "g<dot>": "toggleHidden",
+        "R": "refresh",
+        "f": "search",
+        "F": "searchRecursive",
+        "gf": "gotoSource:file",
+        "gb": "gotoSource:buffer",
+        "<<": "gitStage",
+        ">>": "gitUnstage"
+    }
+}
